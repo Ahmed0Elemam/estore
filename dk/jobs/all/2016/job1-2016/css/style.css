@@ -1,0 +1,159 @@
+body {
+    direction: rtl;
+    font-size: 18px;
+    font-family: "Cairo";
+    font-weight: normal;
+    margin-top: 20px;
+    background-color: #ECF0F1;
+}
+
+.btn-primary {
+    width: 50%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+input[placeholder] {
+    font-size: 16px;
+}
+
+.btn-success {
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+table#details {
+    font-size: 18px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+th,
+td {
+    vertical-align: middle !important;
+}
+
+a {
+    color: #000 !important;
+    transition: all 0.7s ease-in-out;
+    text-decoration: none;
+}
+
+button {
+    transition: all 0.7s ease-in-out;
+}
+
+a:hover {
+    color: #00AEED !important;
+    text-decoration: none;
+}
+
+.btn-success:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+form {
+    margin-top: 50px;
+    border: 1px solid #000 !important;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+@media print {
+    #footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    table#results,table#details {
+        font-size: 12px !important;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    th,
+    td {
+        vertical-align: middle !important;
+        font-size: 12px !important;
+    }
+    .btn-success {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    h2 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    h4 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    p {
+        font-size: 14px;
+    }
+    table#results, table#details {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+    th,
+    td {
+        vertical-align: middle !important;
+    }
+    .btn-success {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h2 {
+        font-size: 12px !important;
+        font-weight: 600;
+    }
+    h4 {
+        font-size: 12px !important;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    p {
+        font-size: 12px;
+    }
+    table#results,table#details {
+        font-size: 10px !important;
+        width: 100% !important;
+    }
+    th,
+    td {
+        font-size: 10px !important;
+        vertical-align: middle !important;
+    }
+    .btn-success {
+        font-size: 10px;
+    }
+	#imp, #imp u {
+		font-size: 12px !important;
+	}
+}
+@media screen and (max-width:325px){
+      table#results,table#details {
+        font-size: 8px !important;
+        width: 100% !important;
+    }
+    th,
+    td {
+        font-size: 8px !important;
+        vertical-align: middle !important;
+    }
+    .btn-success {
+        font-size: 8px;
+    }
+}
+    
+}

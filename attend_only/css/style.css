@@ -1,0 +1,106 @@
+/* font-regular - arabic */
+
+@font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Tajawal.eot');
+    /* IE9 Compat Modes */
+    src: local('Tajawal'), local('Tajawal'),
+        url('fonts/Tajawal.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/Tajawal.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/Tajawal.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/Tajawal.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/Tajawal.svg#Tajawal') format('svg');
+    /* Legacy iOS */
+}
+
+/* font-600 - arabic */
+
+@font-face {
+    font-family: 'Tajawal';
+    font-style: medium;
+    font-weight: 600;
+    src: url('fonts/Tajawal-Medium.eot');
+    /* IE9 Compat Modes */
+    src: local('Tajawal Medium'), local('Tajawal-Medium'),
+        url('fonts/Tajawal-Medium.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/Tajawal-Medium.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/Tajawal-Medium.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/Tajawal-Medium.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/Tajawal-Medium.svg#Tajawal-Medium') format('svg');
+    /* Legacy iOS */
+}
+
+/* font-700 - arabic */
+
+@font-face {
+    font-family: 'Tajawal';
+    font-style: bold;
+    font-weight: 700;
+    src: url('fonts/Tajawal-Bold.eot');
+    /* IE9 Compat Modes */
+    src: local('Tajawal Bold'), local('Tajawal-Bold'),
+        url('fonts/Tajawal-Bold.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/Tajawal-Bold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/Tajawal-Bold.woff') format('woff'),
+        /* Modern Browsers */
+        url('fonts/Tajawal-Bold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/Tajawal-Bold.svg#Tajawal-Bold') format('svg');
+    /* Legacy iOS */
+}
+
+/*** General ***/
+
+body {
+    direction: rtl;
+    font-family: 'Tajawal';
+    text-align: center;
+    background-color: #F1F3F6;
+}
+h2 {
+    font-family: 'Tajawal' !important;   
+}
+
+#data {
+    margin: 10px;
+}
+button {
+    font-family: 'Tajawal' !important;
+    margin: 20px !important;
+}
+
+#report_wrapper > div > div:nth-child(1) > div:nth-child(3) > div {
+    background-color: #4294b3;   
+}
+
+#report_wrapper > div > div:nth-child(1) > div:nth-child(3) > div > button {
+    padding: 0;
+    background-color: transparent !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+td {
+    font-weight: 600;
+}
+
+
+@media only print {
+   .no-print {
+        display: none !important;
+    }
+    table {
+        margin-top: -50px !important;
+    }
+}

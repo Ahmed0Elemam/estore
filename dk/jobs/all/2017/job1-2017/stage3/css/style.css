@@ -1,0 +1,173 @@
+body {
+    direction: rtl;
+    font-size: 18px;
+    font-family: "Cairo";
+    font-weight: normal;
+    margin-top: 20px;
+    background-color: #ECF0F1;
+}
+th, tr, td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 18px;
+}
+.alert-info {
+  font-size: 20px;
+    font-weight: 600;
+}
+tr>td {
+    background-color: beige;
+}
+input[placeholder] {
+    font-size: 18px;
+}
+
+.btn-success {
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+label {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+ol {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+table {
+    font-size: 16px;
+    
+}
+
+a.btn-primary {
+    color: #fff !important;
+    transition: all 0.7s ease-in-out;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button {
+    transition: all 0.7s ease-in-out;
+}
+
+a.btn-primary:hover {
+    color: #5094CE !important;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.btn-success:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.alert.custom-alert,.alert.custom-alert2,.alert.custom-alert3,.alert.custom-alert4, .alert.custom-alert5{
+    display: none;
+    padding: 5px 0;
+    font-size: 16px;
+}
+.alert.custom-alert2 {
+    margin-top:-20px;
+}
+
+
+.astrik {
+    color: #f00;
+    font-size: 30px;
+    position: absolute;
+    right:5px;
+    top: 0px;
+    z-index: 1000;
+    height: 0;
+}
+
+.form-control {
+    font-size: 12px;
+    font-weight: bold;
+    color: #888;
+}
+
+option {
+    font-weight: bold;
+}
+
+input[placeholder] {
+    font-size: 12px;
+}
+.datepick-month a {
+    
+    background-color: #000;
+    color: #fff;
+    
+}
+.datepick-month td .datepick-weekend {
+    background-color: #000;
+}
+
+@media print {
+    #footer, .alert-success, .alert-danger, hr {
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width:500px) {
+    body {
+        font-size: 14px !important;
+    }
+    h2 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+  
+    h4,h3 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    p {
+        font-size: 14px;
+    }
+    label {
+        font-size: 14px;
+    }
+    .form-control {
+        font-size:10px;
+    }
+    input[placeholder] {
+        font-size: 10px;}
+    .alert.alert-danger {
+        font-size: 10px !important;
+    }
+    li {
+        font-size: 14px;
+    }
+    .astrik {
+    color: #f00;
+    font-size: 25px;
+    position: absolute;
+    right:20px;
+    top: 5px;
+    z-index: 1000;
+    height: 0;
+}   
+    .btn-primary {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .alert-info {
+        font-size: 16px;
+    }
+    .btn-success {
+        font-size: 10px;
+    }
+}

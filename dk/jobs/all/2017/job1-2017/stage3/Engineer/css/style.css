@@ -1,0 +1,130 @@
+body {
+    direction: rtl;
+    font-size: 18px;
+    font-family: "Cairo";
+    font-weight: normal;
+    margin-top: 20px;
+    background-color: #ECF0F1;
+}
+.btn-primary {
+    width: 50%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+input[placeholder] {
+    font-size: 16px;
+    text-align: center;
+}
+.btn-success {
+    font-size: 14px !important;
+    color: #fff !important;
+}
+#footer {
+    margin-top: 50px;
+}
+table#details {
+    font-size: 18px;
+    width: 600px;
+    margin: 40px auto;
+}
+th,
+td {
+    vertical-align: middle !important;
+}
+a {
+    color: #000 !important;
+    transition: all 0.7s ease-in-out;
+    text-decoration: none;
+}
+button {
+    transition: all 0.7s ease-in-out;
+}
+a:hover {
+    color: #00AEED !important;
+    text-decoration: none;
+}
+.btn-success:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+form {
+    margin: 50px auto;
+    border: 1px solid #000 !important;
+    border-radius: 10px;
+    padding: 40px;
+    width: 80%;
+}
+.alert-info {
+    width: 80%;
+    margin: 0 auto;
+}
+.alert-danger {
+    width: 80%;
+    margin: 50px auto;
+}
+@media print {
+    #footer {
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    table#details {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+    th,
+    td {
+        vertical-align: middle !important;
+        font-size: 12px !important;
+    }
+    .btn-success {
+        font-size: 10px !important;
+    }
+}
+@media screen and (max-width:500px) {
+    h2 {
+        font-size: 12px !important;
+    }
+    h3 {
+        font-size: 12px !important;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    h4 {
+        font-size: 12px !important;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+    p {
+        font-size: 14px;
+    }
+    table#results,
+    table#details {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+    th,
+    td {
+        vertical-align: middle !important;
+    }
+    .btn-success {
+        font-size: 10px;
+    }
+    label {
+        font-size: 12px;
+    }
+    input[placeholder] {
+        font-size: 12px;
+    }
+    form {
+        margin: 50px auto;
+        border: 1px solid #000 !important;
+        border-radius: 10px;
+        padding: 30px;
+        width: 100%;
+    }
+    .alert-info {
+    width: 100%;
+    margin: 0 auto;
+}
+}

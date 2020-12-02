@@ -1,0 +1,1 @@
+﻿document.getElementById('<?php echo $t_person?>');
